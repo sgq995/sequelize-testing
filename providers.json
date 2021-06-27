@@ -1,0 +1,94 @@
+{
+    "data": [
+        {
+            "name": "Pulido, Domínquez and Kadar rodriguez",
+            "address": "65774 Vanessa Huerta Apt. 654",
+            "city": "León Ricardoborough",
+            "province": "Puebla",
+            "code": "b5730b69-ba27-4218-b86a-4d7bb95b65a5",
+            "createdAt": "2021-02-11T06:04:24.429Z",
+            "updatedAt": "2021-06-27T16:34:27.017Z"
+        },
+        {
+            "name": "Concepción e Hijos",
+            "address": "670 Alcaraz Riera Apt. 141",
+            "city": "Carlosburgh",
+            "province": "Tlaxcala",
+            "code": "6cebf887-9914-4576-ade4-177f3869c17d",
+            "createdAt": "2020-09-09T12:28:23.728Z",
+            "updatedAt": "2021-06-27T16:34:27.017Z"
+        },
+        {
+            "name": "Díaz - Melgar",
+            "address": "3033 Luisa Huerta Suite 825",
+            "city": "Lolaburgh",
+            "province": "Oaxaca",
+            "code": "d94a8d21-5ce3-4237-9318-e2aebf079488",
+            "createdAt": "2021-04-30T16:05:14.744Z",
+            "updatedAt": "2021-06-27T16:34:27.018Z"
+        },
+        {
+            "name": "Cabán Hermanos",
+            "address": "135 Cristina Puente Apt. 339",
+            "city": "South Whittier",
+            "province": "San Luis Potosí",
+            "code": "56034668-b8f0-45ac-890b-e246c355d80a",
+            "createdAt": "2020-12-08T04:40:15.679Z",
+            "updatedAt": "2021-06-27T16:34:27.018Z"
+        },
+        {
+            "name": "Cornejo S.L.",
+            "address": "346 Julio César Caserio Suite 885",
+            "city": "San Luis Potosí-Soledad Luis Fernando",
+            "province": "Tabasco",
+            "code": "5d26d057-8899-4840-afae-5384784e4f94",
+            "createdAt": "2020-10-09T15:29:54.609Z",
+            "updatedAt": "2021-06-27T16:34:27.019Z"
+        },
+        {
+            "name": "Maldonado - Salcido",
+            "address": "3678 Naranjo Camino Suite 839",
+            "city": "Bellingham",
+            "province": "Baja California Sur",
+            "code": "603e7e83-104d-4e39-871c-7b806b4d62cc",
+            "createdAt": "2020-09-04T15:52:16.475Z",
+            "updatedAt": "2021-06-27T16:34:27.019Z"
+        },
+        {
+            "name": "Peralta e Hijos",
+            "address": "641 Ángela Caserio Suite 564",
+            "city": "Gregorioview",
+            "province": "Baja California Norte",
+            "code": "c9941e99-d752-4e0c-a95c-71ad3d9ee211",
+            "createdAt": "2021-01-01T12:29:52.179Z",
+            "updatedAt": "2021-06-27T16:34:27.019Z"
+        },
+        {
+            "name": "Polanco e Hijos",
+            "address": "48541 Loya Masía Suite 349",
+            "city": "South Whittier",
+            "province": "Aguascalientes",
+            "code": "a87e9963-4b46-4bad-89a7-0ab67b1f8110",
+            "createdAt": "2020-11-01T05:05:52.227Z",
+            "updatedAt": "2021-06-27T16:34:27.019Z"
+        },
+        {
+            "name": "Zelaya - Reyes",
+            "address": "559 Ponce Barrio Apt. 690",
+            "city": "Tepic Gustavo",
+            "province": "Nayarit",
+            "code": "465ca607-c295-4adb-a861-f732eae81a75",
+            "createdAt": "2020-12-26T09:09:32.242Z",
+            "updatedAt": "2021-06-27T16:34:27.019Z"
+        },
+        {
+            "name": "Estrada - Sandoval",
+            "address": "12104 Salcido Conjunto Apt. 840",
+            "city": "Guaymas Mario",
+            "province": "Zacatecas",
+            "code": "d88a8017-cf66-4112-b8f7-55c1c93379b4",
+            "createdAt": "2021-01-28T20:25:14.666Z",
+            "updatedAt": "2021-06-27T16:34:27.019Z"
+        }
+    ]
+}
