@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "Sebastian Gonzalez Quintero <sgq995@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "sequelize": "^6.6.4"
+  },
+  "dependencies": {
+    "sqlite3": "^5.0.2"
+  }
 }
