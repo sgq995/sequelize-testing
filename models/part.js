@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
       const { Provider } = models;
       Provider.hasMany(Part, { as: 'parts' });
       Part.belongsTo(Provider, {
-        foreignKey: 'providerId',
+        foreignKey: 'id',
         as: 'providerId'
       });
     }
