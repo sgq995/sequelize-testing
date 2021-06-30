@@ -8,6 +8,15 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
+      providerId: {
+        references: {
+          model: 'Providers',
+          key: 'id'
+        },
+        type: Sequelize.INTEGER,
+        onUpdate: 'CASCADE',
+        onDelete: 'SET NULL'
+      },
       number: {
         type: Sequelize.INTEGER
       },

@@ -12,7 +12,11 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
       const { Provider } = models;
-      Provider.hasMany(Part);
+      Provider.hasMany(Part, { as: 'parts' });
+      Part.belongsTo(Provider, {
+        foreignKey: 'providerId',
+        as: 'providerId'
+      });
     }
   };
   Part.init({
@@ -21,7 +25,7 @@ module.exports = (sequelize, DataTypes) => {
     amount: DataTypes.INTEGER
   }, {
     sequelize,
-    modelName: 'part',
+    modelName: 'Part',
   });
   return Part;
 };

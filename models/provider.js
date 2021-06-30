@@ -21,7 +21,7 @@ module.exports = (sequelize, DataTypes) => {
     code: DataTypes.UUID
   }, {
     sequelize,
-    modelName: 'provider',
+    modelName: 'Provider',
   });
   return Provider;
 };

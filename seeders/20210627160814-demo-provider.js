@@ -1,7 +1,6 @@
 'use strict';
 
 const providers = require('../providers.json').data;
-const parts = require('../parts.json').data;
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
@@ -15,24 +14,13 @@ module.exports = {
      * }], {});
     */
 
-    let partsClone = parts.map(part => ({
-      ...part,
-      createdAt: new Date(part.createdAt),
-      updatedAt: new Date(part.updatedAt)
-    }));
-
     let providersClone = providers.map(provider => ({
       ...provider,
       createdAt: new Date(provider.createdAt),
       updatedAt: new Date(provider.updatedAt)
     }));
 
-    const partsPerProvider = Math.floor(parts.length / providers.length);
-    for (let i = 0; i < providersClone.length; ++i) {
-      // providersClone[i].parts = partsClone.splice(0, partsPerProvider);
-    }
-
-    return queryInterface.bulkInsert('Providers', providersClone);
+    await queryInterface.bulkInsert('Providers', providersClone);
   },
 
   down: async (queryInterface, Sequelize) => {
@@ -42,6 +30,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-    return queryInterface.bulkDelete('Providers', null, {});
+    await queryInterface.bulkDelete('Providers', null, {});
   }
 };
