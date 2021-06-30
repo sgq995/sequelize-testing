@@ -27,7 +27,7 @@ router.route('/')
     const { body } = req;
 
     try {
-      const part = await Part.upser(body);
+      const part = await Part.upsert(body);
 
       res
         .status(201)

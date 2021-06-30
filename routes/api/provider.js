@@ -32,7 +32,7 @@ router.route('/')
     const { body } = req;
 
     try {
-      const provider = await Provider.upser(body);
+      const provider = await Provider.upsert(body);
 
       res
         .status(201)
